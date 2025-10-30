@@ -2,16 +2,14 @@
   "name": "shareease",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://Thanikachalam1.github.io/SDG",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build && copyfiles dist/index.html dist/404.html",
-  "deploy": "gh-pages -d dist"
-}
-,
-
+  "homepage": "https://Thanikachalam1.github.io",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build && copyfiles dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -39,7 +39,7 @@ export default function App() {
   };
 
   return (
-    <Router basename="/SDG">
+    <Router>
       {/* -------- Navbar -------- */}
       <div className="navbar">
         <div className="container navbar-inner">
