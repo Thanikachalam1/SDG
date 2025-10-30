@@ -63,7 +63,6 @@ export default function App() {
       {/* -------- Main Container -------- */}
       <div className="container">
         <Routes>
-          {/* ---- Home ---- */}
           <Route
             path="/"
             element={
@@ -74,15 +73,10 @@ export default function App() {
                       ShareEase — Give a little, feed many
                     </h1>
                     <p className="small" style={{ marginTop: 8 }}>
-                      Convert small parts of your spend into direct support.
-                      Post leftover food so volunteers can pick it up.
+                      Convert small parts of your spend into direct support. Post leftover food so volunteers can pick it up.
                     </p>
                     <div style={{ marginTop: 16 }}>
-                      <Link
-                        to="/donate"
-                        className="btn btn-primary"
-                        style={{ marginRight: 10 }}
-                      >
+                      <Link to="/donate" className="btn btn-primary" style={{ marginRight: 10 }}>
                         Donate Now
                       </Link>
                       <Link to="/share" className="btn btn-ghost">
@@ -95,19 +89,15 @@ export default function App() {
             }
           />
 
-          {/* ---- Pages ---- */}
           <Route path="/donate" element={<Donate onDonate={addDonation} />} />
           <Route path="/share" element={<FoodShare onPost={addFoodPost} />} />
-          <Route
-            path="/list"
-            element={<FoodList posts={foodPosts} onCollect={markCollected} />}
-          />
+          <Route path="/list" element={<FoodList posts={foodPosts} onCollect={markCollected} />} />
         </Routes>
 
-        {/* ---- Dashboard ---- */}
+        {/* -------- Dashboard -------- */}
         <Dashboard donations={donations} foodPosts={foodPosts} />
 
-        {/* ---- Food Listings ---- */}
+        {/* -------- Food Listings -------- */}
         <section style={{ marginTop: 28 }}>
           <h2>Available Food Listings</h2>
           <div style={{ marginTop: 12 }}>
@@ -115,7 +105,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* ---- Recent Donations ---- */}
+        {/* -------- Recent Donations -------- */}
         <section style={{ marginTop: 28 }}>
           <h2>Recent Donations</h2>
           <div style={{ marginTop: 12 }}>

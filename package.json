@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "homepage": "https://Thanikachalam1.github.io/SDG",
-  "scripts": {
+"scripts": {
+  "dev": "vite",
   "build": "vite build",
-  "postbuild": "copyfiles dist/index.html dist/404.html",
-  "predeploy": "npm run build",
+  "preview": "vite preview",
+  "predeploy": "npm run build && copyfiles dist/index.html dist/404.html",
   "deploy": "gh-pages -d dist"
-},
+}
+,
+
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
