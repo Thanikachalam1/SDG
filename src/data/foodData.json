@@ -1,0 +1,20 @@
+[
+  {
+    "postedBy": "GreenLeaf Cafe",
+    "description": "10 veg lunch boxes - rice, dal, sabzi",
+    "quantity": "10 boxes",
+    "location": "MG Road, Bengaluru",
+    "contact": "9876543210",
+    "time": "2025-10-30 19:00",
+    "status": "Available"
+  },
+  {
+    "postedBy": "Community Hall",
+    "description": "Leftover rotis & sabzi - ~15 portions",
+    "quantity": "15 portions",
+    "location": "Sector 12, Gurugram",
+    "contact": "9123456780",
+    "time": "2025-10-30 18:20",
+    "status": "Available"
+  }
+]

@@ -1,0 +1,24 @@
+
+/* Remove underline from all links */
+a {
+  text-decoration: none;
+}
+
+/* Navbar buttons */
+.nav-btn {
+  color: #333;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.nav-btn:hover {
+  background: #f3f3f3;
+}
+
+/* Optional: Active state if you want to highlight the current tab */
+.nav-btn.active {
+  background: #007bff;
+  color: white;
+}
